@@ -19,8 +19,8 @@ app.secret_key = 'ghx6868--CH134_jsl'
 
 app.config['S3_BUCKET'] = 'my-bucketoffiras'
 app.config['S3_LOCATOIN'] = 'https://my-bucketoffiras.s3.eu-north-1.amazonaws.com/uploads/'
-app.config['S3_SECRET'] = os.environ.get('MY_SECRET')
-app.config['S3_KEY']
+app.config['S3_SECRET'] = os.environ.get('S3_SECRET')
+app.config['S3_KEY'] = os.environ.get('S3_KEY')
 
 app.config['UPLOAD_FOLDER'] = UPLPOAD_FOLDER
 app.config['DOWNLOAD_FOLDER'] = DWONLOAD_FOLDER
